@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайдер изображений</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Слайдер изображений</h1>
+        
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide-wrapper">
+                    <img id="current-image" src="https://picsum.photos/600/400?random=1" alt="Изображение 1">
+                </div>
+                
+                <button class="nav-btn prev-btn" id="prev-btn">&#8249;</button>
+                <button class="nav-btn next-btn" id="next-btn">&#8250;</button>
+            </div>
+            
+            <div class="slider-info">
+                <span id="image-counter">Изображение 1 из 5</span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
